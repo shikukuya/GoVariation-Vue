@@ -173,7 +173,7 @@ onMounted(() => {
   /* 左下 */
   content: '└';
   transform: scale(320%);
-  margin-top: 0.9px;
+  margin-top: 1px;
 }
 
 :deep(.line:last-child .block::before) {
@@ -187,14 +187,14 @@ onMounted(() => {
   /* 右下 */
   content: '┘';
   transform: scale(320%);
-  margin-top: 0.9px;
+  margin-top: 1px;
 }
 
 :deep(.block:last-child:before) {
   /* 右边 */
   content: '┤';
   transform: scale(305%);
-  margin-top: 0.4px;
+  margin-top: 0.5px;
 }
 
 :deep(.line:first-child .block:last-child:before) {
