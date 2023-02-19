@@ -33,7 +33,8 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.6.0
         with:
-          node-version: 12
+          # vite3打包必须nodejs版本>=14，这里用lts版本
+          node-version: 18
       - name: Build
         run: |
           npm i
